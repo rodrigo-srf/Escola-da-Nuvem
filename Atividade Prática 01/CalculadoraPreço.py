@@ -1,8 +1,6 @@
-# Calculadora de Preço Total
-
 nome_produto = "Cadeira Infantil"
 preco_unitario = 12.40
-quantidade = 3
+quantidade = int(input("Digite a quantidade desejada: "))
 
 preco_total = preco_unitario * quantidade
 
