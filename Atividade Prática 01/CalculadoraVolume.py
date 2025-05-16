@@ -1,8 +1,6 @@
-# Calculadora de Volume de uma caixa retangular
-comprimento = 12  # em cm
-largura = 14      # em cm
-altura = 20       # em cm
+comprimento = 12
+largura = 14
+altura = float(input("Digite a altura da caixa (cm): "))
 
 volume = comprimento * largura * altura
-
 print("O volume da caixa é:", volume, "cm³")
